@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusCode AI - Autonomous Code Auditing & Test Generation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --accent-color: #6366f1;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .badge {
+            background: rgba(99, 102, 241, 0.15);
+            border: 1px solid var(--accent-color);
+            color: #818cf8;
+            padding: 0.3rem 0.8rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem 3rem 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero h1 span {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+        }
+
+        .cta-btn {
+            background: var(--accent-gradient);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.4);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NexusCode AI</div>
+        <div class="badge">Powered by Claude API</div>
+    </header>
+
+    <section class="hero">
+        <h1>Autonomous Code Auditing & <span>Test Generation</span></h1>
+        <p>NexusCode AI leverages advanced Claude LLMs to analyze repositories, detect security vulnerabilities, and generate full unit test suites automatically.</p>
+        <a href="#contact" class="cta-btn">Request Early Access</a>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>Automated Vulnerability Detection</h3>
+            <p>Scan pull requests in real time using deep semantic understanding powered by Anthropic's Claude API.</p>
+        </div>
+        <div class="card">
+            <h3>Zero-Config Unit Test Suites</h3>
+            <p>Automatically generate 90%+ code coverage unit test suites aligned with your team's specific coding standards.</p>
+        </div>
+        <div class="card">
+            <h3>Refactoring Engine</h3>
+            <p>Receive context-aware code refactoring suggestions that optimize performance and remove technical debt.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2025 NexusCode AI Inc. All rights reserved. | Contact: ceo@nexuscodeai.online</p>
+    </footer>
+</body>
+</html>
